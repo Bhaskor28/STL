@@ -1,0 +1,74 @@
+
+		vector
+
+1.push_back()
+2.size()
+3.front()
+4.back()
+5.clear()
+6.empty()
+7.pop_back()
+8.erase()
+//single element erase
+v.erase(v.begin(),index)
+
+
+// multiple element erase
+
+v.erase(v.begin()+from,to);
+
+
+9.insert()
+  //single element erase
+
+  v.insert(v.begin()+position,value)
+  // multiple element erase
+  //v.insert(v.begin()+position,value)
+
+
+10.swap()
+11.sort()
+12.reverse()
+13.iteration
+
+we can controll exception using at() functin
+
+
+
+
+
+
+
+
+
+
+ void s5()
+{
+
+    vector<int>vp;
+
+    vp.pb(1);
+    vp.pb(2);
+    vp.pb(3);
+    vp.pb(4);
+    vp.pb(5);
+    vp.pb(6);
+    vp.pb(7);
+
+    pn(vp,vp.size());
+    vp.erase(vp.begin()+2); // deleting one element using erase
+
+    // but sometimes we need to delete multiple element
+    vp.erase(vp.begin()+2,vp.end()); //mostly needed
+
+    cout<<vp.front()<<endl;
+    cout<<vp.back()<<endl;
+
+    pn(vp,vp.size());
+
+    vp.insert(vp.begin()+1,12);
+    pn(vp,vp.size());
+
+
+
+}
