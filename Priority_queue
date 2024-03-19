@@ -1,0 +1,11 @@
+		Queue
+
+1.priority_queue declaration
+2.push()
+3.empty()
+4.size()
+5.top()
+
+7.pop()
+8.emplace()
+9.swap()
