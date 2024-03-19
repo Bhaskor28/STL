@@ -1,0 +1,11 @@
+		Queue
+
+1.queue declaration
+2.push()
+3.empty()
+4.size()
+5.front()
+6.back()
+7.pop()
+8.emplace()
+9.swap()
