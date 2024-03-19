@@ -1,0 +1,55 @@
+<list>
+
+		<List>
+
+1.List Declaration
+2.push_back()
+3.push_front()
+4.front()
+5.back()
+6.pop_front()
+7.pop_back()
+8.size()
+9.clear()
+10.empty()
+11.insert()
+12.erase()
+14.remove()
+14.sort()
+15.unique()
+17.swap()
+18.merge()
+
+more special here is advance function:
+
+19.advance(iterator,position);
+//it uses for pointing an index
+
+
+    void s6(){
+
+        list<int>li;
+        li.pb(1);
+        li.pb(2);
+        li.pb(3);
+        li.pb(4);
+        li.pb(5);
+        li.pb(6);
+        li.pf(12);
+        li.pf(13);
+
+        list<int>::iterator it;
+       for(auto el:li){
+
+        cout<<el<<endl;
+       }
+
+       cout<<li.front()<<endl;
+
+    }
+
+
+
+
+
+
